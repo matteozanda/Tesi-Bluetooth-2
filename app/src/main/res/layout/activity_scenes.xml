@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:app3="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_channel"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.matteo.tesimatteo.SingleChannel"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="SCENE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:layout_width="37dp"
+                android:layout_height="60dp"
+                app2:srcCompat="@drawable/menu_icon"
+                android:id="@+id/btnScenesMenu"
+                android:background="@android:color/transparent"
+                android:elevation="0dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="0.36" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="515dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="60dp"
+                android:weightSum="1"
+                android:layout_weight="0.57"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:id="@+id/seekBar7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                <SeekBar
+                    android:id="@+id/seekBar8"
+                    android:layout_width="match_parent"
+                    android:max="255"
+                    android:progress="0"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:text="Clear all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnScenesClear"
+                            android:textAlignment="viewStart" />
+
+                        <Button
+                            android:text="Edit Scene"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnScenesEdit" />
+
+                        <Button
+                            android:text="Save Scene"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnScenesSave" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp">
+                            <TextView
+                                android:text=" 1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader1"
+                                android:layout_marginTop="14dp" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <SeekBar
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/fader1"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_width="match_parent" />
+
+                                <TextView
+                                    android:text="Scena 1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/nameScene1" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:text="  0%"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader1"
+                                android:layout_marginTop="14dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+                            <TextView
+                                android:text=" 2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader2"
+                                android:layout_marginTop="14dp" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <SeekBar
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/fader2"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_width="260dp" />
+
+                                <TextView
+                                    android:text="Scena 2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/nameScene2" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:text="  0%"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader2"
+                                android:layout_marginTop="14dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+                            <TextView
+                                android:text=" 3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader3"
+                                android:layout_marginTop="14dp" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <SeekBar
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/fader3"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_width="match_parent" />
+
+                                <TextView
+                                    android:text="Scena 3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/nameScene3" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:text="  0%"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader3"
+                                android:layout_marginTop="14dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="15dp">
+                            <TextView
+                                android:text=" 4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader4"
+                                android:layout_marginTop="14dp" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <SeekBar
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/fader4"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_width="match_parent" />
+
+                                <TextView
+                                    android:text="Scena 4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/nameScene4" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:text="  0%"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader4"
+                                android:layout_marginTop="14dp" />
+                        </TableRow>
+                    </TableLayout>
+
+                </ScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+        <Button
+            android:text="Black Out"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_BlackOutSingle"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignBottom="@+id/button_ClearSingle"
+            android:layout_toRightOf="@+id/button_ClearSingle"
+            android:layout_toEndOf="@+id/button_ClearSingle" />
+
+        <Button
+            android:text="Save Scene"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_SaveSceneSingle"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignBottom="@+id/button_BlackOutSingle"
+            android:layout_toRightOf="@+id/button_BlackOutSingle"
+            android:layout_toEndOf="@+id/button_BlackOutSingle" />
+
+        <Button
+            android:text="Hi-Light"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_HiLightSingle"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/button_ClearSingle"
+            android:layout_alignRight="@+id/button_ClearSingle" />
+
+        <Button
+            android:text="Prev"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_PrevSingle"
+            android:layout_alignTop="@+id/button_HiLightSingle"
+            android:layout_alignLeft="@+id/button_BlackOutSingle"
+            android:layout_alignStart="@+id/button_BlackOutSingle" />
+
+        <Button
+            android:text="Next"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_NextSingle"
+            android:layout_alignTop="@+id/button_HiLightSingle"
+            android:layout_alignLeft="@+id/button_SaveSceneSingle" />
+
+        <SeekBar
+            android:paddingRight="20dp"
+            android:id="@+id/seekBar2"
+            android:rotation="270"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="70dp"
+            android:layout_height="280dp" />
+
+        <Button
+            android:text="Clear All"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/button_ClearSingle"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/seekBar2"
+            android:layout_toEndOf="@+id/seekBar2" />
+    -->
+
+
+</RelativeLayout>
+

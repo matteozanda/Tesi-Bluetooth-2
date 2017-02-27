@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:app3="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_channel"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.matteo.tesidopocatastrofe.SingleChannel"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="60dp"
+                android:weightSum="1"
+                android:layout_weight="0.57"
+                android:orientation="vertical"
+                android:rotation="270"
+                android:baselineAligned="false">
+
+                <SeekBar
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fader8"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:rotation="270" />
+
+                <SeekBar
+                    android:id="@+id/seekBar7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:text="Clear all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnSingleClear" />
+
+                        <Button
+                            android:text="Black Out"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnSingleBO" />
+
+                        <Button
+                            android:text="Save Scene"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnSingleSave" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:text="Hi-light"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnSingleHL" />
+
+                        <Button
+                            android:text="prev"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnSinglePrev" />
+
+                        <Button
+                            android:text="Next"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnSingleNext" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:text=" 1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader1"
+                                android:layout_gravity="center_vertical" />
+
+                            <SeekBar
+                                android:layout_height="wrap_content"
+                                android:id="@+id/fader1"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_gravity="center_vertical"
+                                android:max="255"
+                                android:layout_width="250dp" />
+
+                            <TextView
+                                android:text="  0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader1"
+                                android:layout_gravity="center_vertical" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:text=" 2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader2"
+                                android:layout_gravity="center_vertical" />
+
+                            <SeekBar
+                                android:layout_height="wrap_content"
+                                android:id="@+id/fader2"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_gravity="center_vertical"
+                                android:max="255"
+                                android:layout_width="250dp" />
+
+                            <TextView
+                                android:text="  0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader2"
+                                android:layout_gravity="center_vertical" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:text=" 3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader3"
+                                android:layout_gravity="center_vertical" />
+
+                            <SeekBar
+                                android:layout_height="wrap_content"
+                                android:id="@+id/fader3"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_gravity="center_vertical"
+                                android:max="255"
+                                android:layout_width="250dp" />
+
+                            <TextView
+                                android:text="  0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader3"
+                                android:layout_gravity="center_vertical" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:text=" 4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader4"
+                                android:layout_gravity="center_vertical" />
+
+                            <SeekBar
+                                android:layout_height="wrap_content"
+                                android:id="@+id/fader4"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_gravity="center_vertical"
+                                android:max="255"
+                                android:layout_width="250dp" />
+
+                            <TextView
+                                android:text="  0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader4"
+                                android:layout_gravity="center_vertical" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:text=" 5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader5"
+                                android:layout_gravity="center_vertical" />
+
+                            <SeekBar
+                                android:layout_height="wrap_content"
+                                android:id="@+id/fader5"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_gravity="center_vertical"
+                                android:max="255"
+                                android:layout_width="250dp" />
+
+                            <TextView
+                                android:text="  0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader5"
+                                android:layout_gravity="center_vertical" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:text=" 6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/numFader6"
+                                android:layout_gravity="center_vertical" />
+
+                            <SeekBar
+                                android:layout_height="wrap_content"
+                                android:id="@+id/fader6"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:layout_gravity="center_vertical"
+                                android:max="255"
+                                android:layout_width="250dp" />
+
+                            <TextView
+                                android:text="  0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/valFader6"
+                                android:layout_gravity="center_vertical" />
+                        </TableRow>
+                    </TableLayout>
+
+                </ScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+

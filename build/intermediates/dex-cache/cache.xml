@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_176039269d3a753a389e3c3b44a05247ab1d0922.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_6d2b7abfe7a35bc12796d8abd93ee90ed81fe9df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_acde38f85f9c4947d6dc3e509369cf1a35904724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_d6c0cdd9922cc0ea8c2adecff7a97c4b2c421143.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_2e2e2476bff77721d24a9fc9c542a7ba7fc5beba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_d37ce8ad88a1b677305208a4296330a70f276408.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_8b4e2cd7e2b1006408b8393c1a4681e1905562a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Matteo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_7be31d2390391d6ed40fd40be491c2140bc6a83f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_52ffa5776beda718dd07381585e97e4d29bed630.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2e74aeca06dd8a9843a671655fb0e5535268fcdd">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_035d49a045f975ba5c67092c6cb07b9bc8b75f9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_d795568770eeb07f4f6c2cf4bf1437f24d4f0391.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_2b35fcbb64302aa60280945dcbaee6fbce0c956b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_edd9f1b7b8444e45f2010e23ea2acf2f3ac611f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_994a3a979d6b6a47f39b692fe79208adc387420f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_f617e81d37d7d56a177f564464c2388759b653f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_75eb37779b3493b7cbec7beff945ac2c86f7ca6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6662eddc199df1210fb36cfa46125162e591e5db">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\instant-run_439e7b836296d60aca89a0f7c076b6bbdd5ff2de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_f3d15b970af276efeab724a747f3af2ef49222b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_133480a25994df516ae3d4ca602f354fd328fee3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_0c47aa838f7008c85daf4b05d61069a88e832717.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_46488c804a5f9b0ea06d398d6150e492a478b93a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_785fc12af00692640705e2222495494bdaebf84f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\Dropbox\Facolta\Tesi_Matteo\Tesi-Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_e71eb20c05d6824866b334a1afe3b91c0906da2a.jar" />
+    </item>
+
+</items>
